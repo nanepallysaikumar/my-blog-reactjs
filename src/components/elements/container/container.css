@@ -1,0 +1,62 @@
+.header-logo-image {
+    width: 75px;
+    height: auto;
+}
+
+.profile-logo-image {
+    width: 40px;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-logo-text {
+    font-weight: bold;
+    vertical-align: top;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.profile-logo-text {
+    font-weight: bold;
+    vertical-align: top;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.header-logo {
+    flex-grow: 0;
+}
+
+.header-menu {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.header-menu .link {
+    display: block;
+    flex-grow: 0;
+    margin-top: 12px;
+}
+
+.container {
+    max-width: 1024px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.content {
+    min-height: 200px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 24px;
+    font-size: 12px;
+}

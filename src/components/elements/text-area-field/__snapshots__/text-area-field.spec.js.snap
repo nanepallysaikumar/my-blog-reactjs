@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`text-area-field should render error text-area: text-area-error-snapshot 1`] = `
+<div>
+  <div
+    class="form-field"
+  >
+    <label
+      class="form-field-label"
+    >
+      Test Title
+    </label>
+    <textarea
+      class="text-area-field error"
+      name="test"
+    >
+      test
+    </textarea>
+    <div
+      class="form-field-error"
+      data-testid="form-field-error-undefined"
+    >
+      Invalid
+    </div>
+  </div>
+</div>
+`;
+
+exports[`text-area-field should render normal text-area: text-area-normal-snapshot 1`] = `
+<div>
+  <div
+    class="form-field"
+  >
+    <label
+      class="form-field-label"
+    >
+      Test Title
+    </label>
+    <textarea
+      class="text-area-field"
+      name="test"
+    >
+      test
+    </textarea>
+  </div>
+</div>
+`;

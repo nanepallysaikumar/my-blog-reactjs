@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`blog-reducer should add item on  BLOG_ADD_ITEM action: addItemSnapshot 1`] = `
+Object {
+  "list": Array [
+    Object {
+      "body": "test body",
+      "header": "test header",
+      "id": "12122",
+    },
+  ],
+}
+`;
+
+exports[`blog-reducer should update item on  BLOG_ADD_ITEM action: updateItemSnapshot 1`] = `
+Object {
+  "list": Array [
+    Object {
+      "body": "new body",
+      "header": "new heading",
+      "id": "12122",
+    },
+  ],
+}
+`;
+
+exports[`blog-reducer should update the list on BLOG_UPDATE_LIST action: updateListSnapshot 1`] = `
+Object {
+  "list": Array [
+    Object {
+      "body": "test body",
+      "header": "test header",
+      "id": "12122",
+    },
+  ],
+}
+`;

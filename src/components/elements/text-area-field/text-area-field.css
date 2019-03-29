@@ -1,0 +1,8 @@
+.text-area-field {
+    height: 200px;
+    width: 100%;
+}
+
+.text-area-field.error {
+    border: 1px solid #d64161;
+}

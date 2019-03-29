@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`blog-actions addBlog should generate valid action object: addBlog 1`] = `
+Object {
+  "payload": Object {
+    "body": "test body",
+    "heading": "test heading",
+  },
+  "type": "BLOG_ADD_ITEM",
+}
+`;
+
+exports[`blog-actions blogList should generate valid action object: blogList 1`] = `
+Object {
+  "payload": Array [
+    Object {
+      "body": "test body",
+      "heading": "test heading",
+    },
+  ],
+  "type": "BLOG_UPDATE_LIST",
+}
+`;
+
+exports[`blog-actions editBlog should generate valid action object: editBlog 1`] = `
+Object {
+  "payload": Object {
+    "body": "test body",
+    "heading": "test heading",
+  },
+  "type": "BLOG_EDIT_ITEM",
+}
+`;
+
+exports[`blog-actions removeBlog should generate valid action object: removeBlog 1`] = `
+Object {
+  "payload": Object {
+    "body": "test body",
+    "heading": "test heading",
+  },
+  "type": "BLOG_REMOVE_ITEM",
+}
+`;

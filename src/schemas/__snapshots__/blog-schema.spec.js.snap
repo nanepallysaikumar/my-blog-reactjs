@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`blog-schema should check required properties: blog-schema-required-error 1`] = `[ValidationError: Body is required!]`;
+
+exports[`blog-schema should validate  minimum length of properties: blog-schema-minimum-error 1`] = `[ValidationError: Body has to be longer than 3 characters!]`;

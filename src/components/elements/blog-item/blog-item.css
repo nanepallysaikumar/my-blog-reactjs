@@ -1,0 +1,15 @@
+.blog-item {
+    margin-bottom: 24px;
+}
+.blog-item-date {
+    font-size: 12px;
+    color: #666;
+}
+
+.blog-item-heading {
+    margin-bottom: 0;
+}
+
+.blog-item-links .link {
+    margin-right: 16px;
+}

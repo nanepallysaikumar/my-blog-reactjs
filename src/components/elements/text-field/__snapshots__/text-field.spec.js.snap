@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`text-field should render error text-field: text-field-error-snapshot 1`] = `
+<div>
+  <div
+    class="form-field"
+  >
+    <label
+      class="form-field-label"
+    >
+      Test Title
+    </label>
+    <input
+      class="text-field error"
+      name="test"
+      type="text"
+      value="test"
+    />
+    <div
+      class="form-field-error"
+      data-testid="form-field-error-test"
+    >
+      Invalid
+    </div>
+  </div>
+</div>
+`;
+
+exports[`text-field should render normal text-field: text-field-normal-snapshot 1`] = `
+<div>
+  <div
+    class="form-field"
+  >
+    <label
+      class="form-field-label"
+    >
+      Test Title
+    </label>
+    <input
+      class="text-field"
+      name="test"
+      type="text"
+      value="test"
+    />
+  </div>
+</div>
+`;

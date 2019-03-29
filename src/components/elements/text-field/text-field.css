@@ -1,0 +1,10 @@
+.text-field {
+    width: 100%;
+    padding: 6px 8px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.text-field.error {
+    border: 1px solid #d64161;
+}
